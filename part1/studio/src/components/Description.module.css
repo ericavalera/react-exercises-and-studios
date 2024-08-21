@@ -1,0 +1,26 @@
+.recipeAuthorBlock {
+   flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 60px;
+
+    }
+    .recipeDescription{
+    flex-direction: row;
+     flex-wrap: wrap;
+     text-align: right;
+     padding: 60px;
+      }
+    
+    .imageUpdates {
+       object-fit: contain;
+      
+    }
+
+    .imageAuthor{
+       border-radius: 70%;
+       width: 200px;
+       padding-left: 60px;
+
+    }
+   
+   
