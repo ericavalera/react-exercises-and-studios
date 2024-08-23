@@ -1,12 +1,15 @@
 import './styles.css';
 
 function Button() {
-
+ function onLearnMore (){
+alert("Slipsh Splash")
+ 
+};
    return ( 
-         <button>
-            Learn More
+         <button onClick={onLearnMore} >
+          Learn More
          </button>
    );
-}
+};
 
 export default Button;
