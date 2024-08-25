@@ -1,12 +1,13 @@
-export default function HobbyIntroduction () {
-   return(
-      <div>
-         <h2>3 Fun Facts About Needlepoint</h2>
-         <ol>
-            <li>Needlepoint uses a specialized canvas as it's base.</li>
-            <li>The most basic stitch is called a tent stitch.</li>
-            <li>Needlepoint uses a lot of different kinds of fibers.</li>
-         </ol>
-      </div>
-   );
-}
+export default function HobbyIntroduction (){
+  return(
+  <div>
+    <h2>3 Fun Facts About this Hobby</h2>
+    <ol>
+        <li>It is fun too learn and good for medication and shadow work/self reflection.</li>
+        <li>Its great for party and events, especially around halloween! </li>
+        <li>So many people find it scary, when its actually fun and interactive.</li>
+    </ol>
+  </div>
+  )
+};
+

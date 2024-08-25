@@ -5,7 +5,7 @@ export default function MyProjects() {
    const [index, setIndex] = useState(0);
 
   function handleClick() {
-   if (index < data.projects.length-1)
+   if (index < data.tarots.length-1)
    {
       setIndex(index + 1);
    }
@@ -15,17 +15,20 @@ export default function MyProjects() {
    }
   }
 
-  let projects = data.projects;
-  let project = projects[index];
+  let tarots = data.tarots;
+  let project = tarots[index];
 
   return (
     <div>
       <button onClick={handleClick}>
         Next
       </button>
-      <h2>{project.canvas} by {project.designer}
+      <h2>{project.card} by {project.designer}
       </h2>
       <img src={project.photoUrl} alt={project.alt} />
     </div>
   );
 }
+
+    
+
