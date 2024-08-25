@@ -1,18 +1,11 @@
 import data from '../data.json';
 import { useState } from 'react';
 
-export default function MyProjects() {
+const MyProjects = () => {
    const [index, setIndex] = useState(0);
 
-  function handleClick() {
-   if (index < data.tarots.length-1)
-   {
-      setIndex(index + 1);
-   }
-   else
-   {
-      setIndex(0);
-   }
+const handleClick = () =>{
+   index < data.tarots.length-1 ? setIndex(index + 1) : setIndex(0);
   }
 
   let tarots = data.tarots;
@@ -32,3 +25,4 @@ export default function MyProjects() {
 
     
 
+export default MyProjects;
