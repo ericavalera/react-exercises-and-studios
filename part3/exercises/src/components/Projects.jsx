@@ -4,7 +4,7 @@ import { useState } from 'react';
 const MyProjects = () => {
    const [index, setIndex] = useState(0);
 
-const handleClick = () =>{
+const handleClick = () => {
    index < data.tarots.length-1 ? setIndex(index + 1) : setIndex(0);
   }
 
